@@ -2,7 +2,8 @@ module.exports = {
   entry: './index.js',
   output: {
     path: __dirname,
-    filename: 'index.min.js'
+    filename: 'index.min.js',
+    libraryTarget: 'commonjs2'
   },
   module: {
 
